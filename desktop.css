@@ -1,3 +1,8 @@
+.hidden {
+  position:absolute;
+  clip: rect(1px, 1px, 1px, 1px);
+}
+
 body {
   border-top: 5px solid #e56038;
   background: #ebe8de;
@@ -72,10 +77,109 @@ nav ul li a:hover {
   border-radius: 5px;
 }
 
-/*nav ul li:hover {
-border-radius: 5px;
-background: white;
+.call_to_action {
+  width:auto;
+  margin: 0 auto;
+  position:relative;
 }
-nav ul li:hover a{
-color: #E56038;
-}*/
+
+.call_to_action article {
+  line-height: 25px;
+  font-family: 'Open Sans', sans-serif;
+  width:350px;
+  position:absolute;
+  top:15%;
+  left:15%;
+  display:block;
+  z-index:11;
+  background-color: RGBA(255,255,255,0.7);
+  border-radius: 10px;
+  padding: 10px;
+}
+
+#signup {
+  width:auto;
+  height:70px;
+  background-color:#e56038;
+  font-family: 'Open Sans', sans-serif;
+  color:#fff;
+  font-size:18px;
+  text-align: right;
+}
+
+#signup p {
+  margin-top:22px;
+  display: inline-block;
+  width:auto;
+}
+
+#signup .signup {
+  margin-top:15px;
+  /*margin-right: 20px;*/
+  width:auto;
+  display: inline-block;
+}
+
+input {
+  font-family: 'Open Sans', sans-serif;
+  font-size:16px;
+  padding: 7px;
+  outline: 0;
+  border:0;
+  width:250px;
+  background: #EBE8DE;
+  border-radius:5px;
+  margin-right: 10px;
+}
+
+input[type=submit] {
+  width:auto;
+  padding: 5px 18px;
+  line-height:25px;
+  text-shadow:none;
+  cursor:pointer;
+  box-shadow: none;
+  background: #333333;
+  color: #fff;
+}
+
+
+#how_we_work {
+  width:auto;
+  max-width:900px;
+  margin:0 auto;
+  padding:70px 0 45px 0;
+}
+
+#how_we_work h2 {
+  margin: 35px 0 35px 0;
+  font-size: 36px;
+  color: #e56038;
+  font-family: sans-serif;
+  text-align: center;
+  border-bottom: 2px solid #e56038;
+}
+
+#how_we_work article {
+  float:left;
+  width:250px;
+  margin-right:45px;
+  font-size:14px;
+}
+
+#how_we_work article h3 {
+  font-family: 'Open Sans', sans-serif;
+  font-size:20px;
+  margin-bottom:10px;
+  margin-left:75px;
+}
+
+#how_we_work article img {
+  float:left;
+}
+
+#how_we_work article p {
+  line-height:25px;
+  font-family: 'Open Sans', sans-serif;
+  margin-left:75px;
+}
